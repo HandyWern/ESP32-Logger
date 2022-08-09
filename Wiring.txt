@@ -1,0 +1,27 @@
+Environmental Sensor Wiring.
+-----------------------------
+
+
+GPS Module -> 	ESP32
+-----------------------
+VCC	->	3.3V
+GND	->	GND
+TX	->	P16
+RX	->	P17
+
+BME280	->	ESP32
+-----------------------
+VCC	->	5v
+GND 	->	GND
+SDA	->	P21
+SCL	->	P22
+ADDR	->	GND
+
+SD Card ->	ESP32
+-----------------------
+VDD	->	3.3v
+GND 	->	GND
+MOSI	->	P23
+MISO	->	P19
+SCLK	->	18
+CS	->	P5
